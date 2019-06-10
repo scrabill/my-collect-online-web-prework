@@ -19,7 +19,7 @@ def my_collect(array)
   end
 end
 
-worked in the other lesson?
+#worked in the other lesson?
 
 # def my_select(collection)
 #  # your code here!
