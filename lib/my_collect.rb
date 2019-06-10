@@ -3,11 +3,11 @@ def my_collect(array)
     i = 0
 
         while i < array.length
-          yield (collection << array[i])
+          yield(array[i])
           i = i + 1
         end
 
-    collection
+    array
   else
     puts "Hey! No block was given!"
   end
