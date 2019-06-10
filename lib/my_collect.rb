@@ -11,6 +11,12 @@ def my_collect(array)
   # else
   #   puts "Hey! No block was given!"
   # end
+  i = 0
+
+  while i < array.length
+    yield i
+    i = i + 1
+  end
 end
 
 worked in the other lesson?
