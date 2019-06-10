@@ -17,6 +17,7 @@ def my_collect(array)
     yield i
     i = i + 1
   end
+  array
 end
 
 #worked in the other lesson?
